@@ -1,0 +1,23 @@
+{
+  "twilio": {
+    "account_sid": "ACxxx",
+    "auth_token": "token",
+    "sms_did": "did for outgoing sms"
+  },
+  "forwardable_dids": [
+  ],
+  "owner": {
+    "name": "Joe Shmoe",
+    "did": "+123456789",
+    "email": "joe@gmail.com"
+  },
+  "email": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "joe@gmail.com",
+      "pass": "pass"
+    }
+  }
+}
